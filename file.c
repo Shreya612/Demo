@@ -9,13 +9,13 @@ int main()
     scanf("%d %d", &r1, &c1);
 
     printf("Enter rows and column for second matrix: ");
-    scanf("%d %d",&r2, c2);
+    scanf("%d %d",&r2, &c2);
 
     // Column of first matrix should be equal to column of second matrix and
     while (c1 != r2)
     {
         printf("Error! column of first matrix not equal to row of second.\n\n");
-        printf("Enter rows and column for first matrix: ")
+        printf("Enter rows and column for first matrix: ");
         scanf("%d %d", &r1, &c1);
         printf("Enter rows and column for second matrix: ");
         scanf("%d %d",&r2, &c2);
